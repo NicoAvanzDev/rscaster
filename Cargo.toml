@@ -1,0 +1,12 @@
+[package]
+name = "rscaster"
+version = "0.1.0"
+edition = "2021"
+build = "build.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+sdl2 = "0.35"
+gl = "0.14"
+rayon = "1.5"
